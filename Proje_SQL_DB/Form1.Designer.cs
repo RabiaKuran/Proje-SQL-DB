@@ -109,7 +109,7 @@
             this.panel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(338, 720);
+            this.panel1.Size = new System.Drawing.Size(338, 707);
             this.panel1.TabIndex = 0;
             // 
             // label2
@@ -350,7 +350,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(338, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1100, 23);
+            this.panel2.Size = new System.Drawing.Size(969, 23);
             this.panel2.TabIndex = 1;
             // 
             // dataGridView1
@@ -365,17 +365,17 @@
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridView1.Location = new System.Drawing.Point(338, 476);
+            this.dataGridView1.Location = new System.Drawing.Point(348, 463);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1098, 244);
+            this.dataGridView1.Size = new System.Drawing.Size(959, 244);
             this.dataGridView1.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(344, 448);
+            this.label3.Location = new System.Drawing.Point(344, 436);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(161, 20);
             this.label3.TabIndex = 3;
@@ -388,7 +388,7 @@
             this.chart2.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart2.Legends.Add(legend1);
-            this.chart2.Location = new System.Drawing.Point(814, 56);
+            this.chart2.Location = new System.Drawing.Point(826, 56);
             this.chart2.Name = "chart2";
             this.chart2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
             series1.ChartArea = "ChartArea1";
@@ -398,6 +398,7 @@
             this.chart2.Size = new System.Drawing.Size(459, 341);
             this.chart2.TabIndex = 4;
             this.chart2.Text = "chart2";
+            this.chart2.Click += new System.EventHandler(this.chart2_Click);
             // 
             // chart1
             // 
@@ -405,7 +406,7 @@
             this.chart1.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
             this.chart1.Legends.Add(legend2);
-            this.chart1.Location = new System.Drawing.Point(349, 56);
+            this.chart1.Location = new System.Drawing.Point(348, 56);
             this.chart1.Name = "chart1";
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
             series2.ChartArea = "ChartArea1";
@@ -421,7 +422,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1438, 720);
+            this.ClientSize = new System.Drawing.Size(1307, 707);
             this.Controls.Add(this.chart1);
             this.Controls.Add(this.chart2);
             this.Controls.Add(this.label3);

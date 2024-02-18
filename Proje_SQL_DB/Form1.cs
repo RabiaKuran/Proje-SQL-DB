@@ -78,5 +78,10 @@ namespace Proje_SQL_DB
         {
 
         }
+
+        private void chart2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

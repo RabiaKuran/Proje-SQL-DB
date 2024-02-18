@@ -156,7 +156,7 @@
             // 
             this.TxtAd.Location = new System.Drawing.Point(154, 70);
             this.TxtAd.Name = "TxtAd";
-            this.TxtAd.Size = new System.Drawing.Size(146, 30);
+            this.TxtAd.Size = new System.Drawing.Size(146, 26);
             this.TxtAd.TabIndex = 18;
             // 
             // label2
@@ -166,7 +166,7 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(22, 75);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 22);
+            this.label2.Size = new System.Drawing.Size(85, 18);
             this.label2.TabIndex = 17;
             this.label2.Text = "Müşteri Adı:";
             // 
@@ -177,7 +177,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(22, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 22);
+            this.label1.Size = new System.Drawing.Size(76, 18);
             this.label1.TabIndex = 16;
             this.label1.Text = "Müşteri Id:";
             // 
@@ -185,7 +185,7 @@
             // 
             this.TxtId.Location = new System.Drawing.Point(154, 35);
             this.TxtId.Name = "TxtId";
-            this.TxtId.Size = new System.Drawing.Size(146, 30);
+            this.TxtId.Size = new System.Drawing.Size(146, 26);
             this.TxtId.TabIndex = 15;
             // 
             // dataGridView1
@@ -256,7 +256,7 @@
             this.CmbSehir.FormattingEnabled = true;
             this.CmbSehir.Location = new System.Drawing.Point(154, 142);
             this.CmbSehir.Name = "CmbSehir";
-            this.CmbSehir.Size = new System.Drawing.Size(146, 33);
+            this.CmbSehir.Size = new System.Drawing.Size(146, 28);
             this.CmbSehir.TabIndex = 28;
             // 
             // label7
@@ -266,7 +266,7 @@
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(22, 186);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(69, 22);
+            this.label7.Size = new System.Drawing.Size(56, 18);
             this.label7.TabIndex = 27;
             this.label7.Text = "Bakiye:";
             // 
@@ -274,7 +274,7 @@
             // 
             this.TxtBakiye.Location = new System.Drawing.Point(154, 181);
             this.TxtBakiye.Name = "TxtBakiye";
-            this.TxtBakiye.Size = new System.Drawing.Size(146, 30);
+            this.TxtBakiye.Size = new System.Drawing.Size(146, 26);
             this.TxtBakiye.TabIndex = 23;
             // 
             // label3
@@ -284,7 +284,7 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(22, 111);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(129, 22);
+            this.label3.Size = new System.Drawing.Size(107, 18);
             this.label3.TabIndex = 20;
             this.label3.Text = "Müşteri Soyad:";
             // 
@@ -292,7 +292,7 @@
             // 
             this.TxtSoyad.Location = new System.Drawing.Point(154, 106);
             this.TxtSoyad.Name = "TxtSoyad";
-            this.TxtSoyad.Size = new System.Drawing.Size(146, 30);
+            this.TxtSoyad.Size = new System.Drawing.Size(146, 26);
             this.TxtSoyad.TabIndex = 19;
             // 
             // label4
@@ -302,16 +302,16 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(22, 147);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(57, 22);
+            this.label4.Size = new System.Drawing.Size(46, 18);
             this.label4.TabIndex = 21;
             this.label4.Text = "Şehir:";
             // 
             // FormMusteri
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(54)))), ((int)(((byte)(80)))));
-            this.ClientSize = new System.Drawing.Size(1044, 540);
+            this.ClientSize = new System.Drawing.Size(1125, 583);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridView1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
